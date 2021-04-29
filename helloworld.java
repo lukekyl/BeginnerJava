@@ -1,6 +1,12 @@
 /* Hello World Java Program */
 class helloworld  {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        sayGreeting("Kyle");
     }
+
+    private static void sayGreeting(String name) {
+        System.out.println("Hello " + name);
+    }
+
+
 }
